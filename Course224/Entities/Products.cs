@@ -19,7 +19,7 @@ namespace Course224.Entities
         {
             return "Nome: "
                     + Name
-                    + ", Preço: "
+                    + ", | Preço: "
                     + Price.ToString("C", new CultureInfo("pt-BR"));
         }
 
